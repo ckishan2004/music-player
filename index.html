@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="icon.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS-No copyright song</h1>
+            <div class="songcont">
+                <div class="songItem">
+                    <img src="1.jpg" alt="1">
+                    <span class="songName">Main rang sharbaton ka</span>
+                    <span class="songplaylist"><span class="timestemp">5:26 <i id="0" class=" fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="2.jpg" alt="1">
+                    <span class="songName">Tum Prem Hon</span>
+                    <span class="songplaylist"><span class="timestemp">5:02 <i id="1" class=" fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="3.jpg" alt="1">
+                    <span class="songName">Desh Mere</span>
+                    <span class="songplaylist"><span class="timestemp">3:08 <i id="2" class=" fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="4.jpg" alt="1">
+                    <span class="songName">Tuje Sab He Pata Haina Ma</span>
+                    <span class="songplaylist"><span class="timestemp">5:35 <i id="3" class=" fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="5.jpg" alt="1">
+                    <span class="songName">Ve Kamleya </span>
+                    <span class="songplaylist"><span class="timestemp">4:44 <i id="4" class=" fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="6.jpg" alt="1">
+                    <span class="songName">Tera Fitoor</span>
+                    <span class="songplaylist"><span class="timestemp">6:02 <i id="5" class=" fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="7.jpg" alt="1">
+                    <span class="songName">Adha Tera Isuq</span>
+                    <span class="songplaylist"><span class="timestemp">4:51 <i id="6" class=" fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="8.jpg" alt="1">
+                    <span class="songName">Pushpa Pushpa</span>
+                    <span class="songplaylist"><span class="timestemp">4:19 <i id="7" class=" fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+
+        <input type="range" name="range" id="myprogressbar" min="0"  value="0" max="100">
+        <div class="icons">
+            <!-- fontawsome icon -->
+            <i class=" fa-3x fa-solid fa-backward-step" id="previous"></i>
+            <i class=" fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class=" fa-3x fa-solid fa-forward-step" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="playing.gif" width="50px" alt="1" id="gif"> <span id="masterSongName"> Main rang sharbaton ka </span> 
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8f28af4106.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
